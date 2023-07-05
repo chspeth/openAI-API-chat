@@ -1,0 +1,22 @@
+.header {
+  color: $background-color;
+  background-color: $accent-color;
+  padding: 36px 24px; 
+  text-align: center; 
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: center;
+  gap: 12px;
+}
+
+.header__logo {
+  font-size: 20px; 
+  color: $background-color;
+  text-decoration: none;
+}
+
+.header__logout {
+  color: $background-color;
+  text-decoration: none;
+}

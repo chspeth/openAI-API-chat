@@ -1,0 +1,12 @@
+//Globals
+@import "global/global";
+@import "global/variables";
+@import "global/fonts";
+@import "../normalize.css";
+
+//Components
+@import "components/header";
+@import "components/form";
+@import "components/chat";
+@import "components/usertext";
+@import "components/message";

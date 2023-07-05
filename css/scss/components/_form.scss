@@ -1,0 +1,33 @@
+.form__fieldset {
+  border: none;
+  padding: 24px 12px;
+  margin: 0;
+}
+
+.form__input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid $accent-color;
+  margin-bottom: 12px;
+}
+
+.form__button {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  color: $background-color;
+  background-color: $fade-color;
+  padding: 12px; 
+}
+
+.form__button:hover,
+.form__button:active {
+  background-color: $accent-color;
+}
+
+.form__text {
+  display: block;
+  width: 100%;
+  text-align: center;
+}

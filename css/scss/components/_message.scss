@@ -1,0 +1,27 @@
+.message {
+  padding: 24px;
+  background-color: $panel-background-color;
+}
+
+.message__date {
+  display: block;
+  color: $fade-color;
+  margin-bottom: 12px;
+}
+
+.message__title {
+  color: $accent-color;
+  margin-bottom: 4px;
+}
+
+.message__text {
+  margin: 0;
+  margin-bottom: 12px;
+}
+
+.message__button {
+  background-color: transparent;
+  border: none;
+  color: $danger-color;
+  cursor: pointer;
+}
